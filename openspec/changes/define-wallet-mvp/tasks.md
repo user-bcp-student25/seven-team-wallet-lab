@@ -12,7 +12,7 @@ proteccion idempotente; el orden no autoriza pagos desprotegidos.
 
 ## 2. Completar especificacion y diseno
 
-- [ ] 2.1 HU-01/HU-02/HU-04: completar delta specs funcionales SHALL/WHEN/THEN y mapa de cada CA; evidencia: cobertura de las tres HU sin activar las diferidas.
+- [ ] 2.1 HU-01/HU-02/HU-04: completar y revisar las delta specs `wallet-onboarding`, `low-value-payment` y `payment-idempotency` con escenarios Gherkin; evidencia: matriz HU/CA -> escenario -> tarea -> evidencia, cobertura de todos los CA activos y preguntas abiertas explicitas, sin activar HU diferidas.
 - [ ] 2.2 HU-02/HU-04: disenar PostgreSQL, ledger, transacciones, inbox/outbox y locking; evidencia: esquema y escenarios de fallo/concurrencia revisados.
 - [ ] 2.3 Extension HU-02 CA3: disenar Meilisearch, contrato de concepto, ownership, indexacion asincrona, checkpoint y reindex; evidencia: escenarios duplicado/fuera de orden, aislamiento, retraso/caida y reconstruccion.
 - [ ] 2.4 HU activas: completar OpenAPI/eventos, permisos y simuladores; evidencia: contratos, consulta autoritativa por referencia y ejemplos negativos sin dependencia financiera del indice.

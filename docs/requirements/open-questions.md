@@ -25,6 +25,9 @@ no es necesario bloquear trabajo documental independiente.
 | Q-15 | Modelo/endpoint LLM, limites de gasto, datos autorizados, herramientas sandbox y mecanismo de aprobacion | Responsable del laboratorio | CrewAI |
 | Q-16 | Versiones e imagenes compatibles de Angular/Node, Spring Boot/Java 21, PostgreSQL, Meilisearch, OpenSpec, CrewAI y proveedor Compose de Podman | Arquitectura | Esqueletos, contenedores y agentes |
 | Q-17 | Definicion de concepto (texto, categoria o ambos), campos buscables, filtros, orden, paginacion, frescura y retencion del indice | Producto y seguridad | Extension de historial HU-02 CA3 |
+| Q-18 | ¿El login descrito en BUSSINESS_RULES.md forma parte del alcance de HU-01? Si se incluye, ¿que HU y criterios lo cubren? | Producto | HU-01 y alcance activo |
+| Q-19 | ¿Cuando aplica ITF en el MVP ficticio, cual es la base del 0.05%, como se redondea y como se presenta el movimiento adicional? La respuesta no afirma una regla legal verificada. | Producto, cumplimiento y ledger | HU-02 y regla ITF de BUSSINESS_RULES.md |
+| Q-20 | ¿Que caracteres y formato se permiten en el correo, incluyendo separador y dominio, dada la regla "alfanumerico, sin caracteres especiales"? | Producto y seguridad | HU-01 y validacion de onboarding |
 
 ## Decisiones tecnicas acordadas
 

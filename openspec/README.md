@@ -18,7 +18,7 @@ no sincronizar borradores como si fueran comportamiento ya entregado.
 
 ## Flujo previsto
 
-1. Revisar fuentes activas y preguntas aplicables hasta Q-17 con producto y responsables tecnicos.
+1. Revisar fuentes activas y preguntas aplicables hasta Q-20 con producto y responsables tecnicos.
 2. Completar proposal, specs, design y tasks de definicion; resolver bloqueos.
 3. Revision humana y aprobacion de requisitos y arquitectura.
 4. Crear cambios acotados de construccion con tareas y escenarios propios.

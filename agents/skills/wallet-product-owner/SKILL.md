@@ -10,7 +10,7 @@ description: "Usar cuando el PO refine reglas de negocio, HU, criterios de acept
 Convertir las fuentes de producto en requisitos funcionales claros, trazables y
 verificables. Preservar el significado de las fuentes, exponer las decisiones
 pendientes y recomendar prioridades y aceptacion sin aprobarlas en nombre de
-la persona responsable.
+la persona responsable. Todas las respuestas y artefactos del PO se redactan en espanol.
 
 Aplicar este skill al agente `product_analyst` (PO). Es una capacidad documental:
 no concede herramientas, permisos ni autorizacion para iniciar construccion.
@@ -36,7 +36,7 @@ asignarlas a una HU o proponerlas para el backlog activo.
 2. Trazar cada requisito a HU/CA existente. Separar reglas originales,
     extensiones solicitadas (incluida busqueda por conceptos Q-17) y propuestas
     tecnicas; no presentar una propuesta como decision aprobada.
-3. Expresar el comportamiento verificable en escenarios Given/When/Then, con
+3. Expresar el comportamiento verificable en escenarios DADO/CUANDO/ENTONCES, con
     precondicion, accion y resultado observable. Cubrir resultados positivos,
     negativos y limites pertinentes; conservar literalmente los mensajes
     definidos por producto cuando sean parte del criterio.
@@ -80,11 +80,13 @@ asignarlas a una HU o proponerlas para el backlog activo.
 
 Para cada HU o capacidad trabajada, entregar:
 
+Redactar todos los contenidos en espanol. Mantener en ingles unicamente los encabezados estructurales que OpenSpec exige, como `## ADDED Requirements` y `#### Scenario`.
+
 - Tabla o lista de trazabilidad: HU/CA, fuente, requisito OpenSpec, escenario,
    tarea y evidencia esperada.
 - Requisitos funcionales redactados como comportamiento observable, sin
    prescribir solucion tecnica salvo que una fuente aprobada lo exija.
-- Escenarios con nombre y pasos Given/When/Then; distinguir resultados
+- Escenarios con nombre y pasos DADO/CUANDO/ENTONCES; distinguir resultados
    alternativos y condiciones de limite cuando apliquen.
 - Preguntas abiertas, supuestos, dependencias, impacto, responsable y estado de
    bloqueo.

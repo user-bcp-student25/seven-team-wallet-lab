@@ -32,7 +32,7 @@ activo. La epica original es mas amplia que este incremento y no se modifica.
 La secuencia de refinamiento/entrega no autoriza pagos sin proteccion contra
 duplicados: los invariantes de HU-04 condicionan la habilitacion de HU-02.
 
-## Cobertura activa a definir
+## Cobertura activa propuesta
 
 - HU-01 CA1-3: pasos, validacion, KYC simulado y activacion de wallet.
 - HU-01 CA4-6: eventos por paso, frontera temporal, cohortes y atribucion de gasto.
@@ -42,6 +42,16 @@ duplicados: los invariantes de HU-04 condicionan la habilitacion de HU-02.
 
 HU-04 CA4 conserva evidencia que distingue originales/reintentos en salidas de
 control; no exige construir toda la funcionalidad diaria de HU-06 en este alcance.
+
+Los criterios activos se refinan en escenarios Gherkin dentro de las delta specs
+del cambio OpenSpec, todavía sujetas a revision humana:
+
+- HU-01 CA1-6: [wallet-onboarding](../../openspec/changes/define-wallet-mvp/specs/wallet-onboarding/spec.md).
+- HU-02 CA1-6: [low-value-payment](../../openspec/changes/define-wallet-mvp/specs/low-value-payment/spec.md).
+- HU-04 CA1-4: [payment-idempotency](../../openspec/changes/define-wallet-mvp/specs/payment-idempotency/spec.md).
+
+Estas propuestas no reemplazan los criterios originales ni aprueban los puntos
+pendientes de Q-01 a Q-20.
 
 ## Requisitos tecnicos adicionales solicitados
 
